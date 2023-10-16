@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="./assets/sun-horizon.svg" />
+
+    <title>AppTime</title>
+  </head>
+  <body>
+    <div class="app">
+      <input class="inputCity" placeholder="DIgite o nome da cidade" />
+      <button onclick="clickButton()">
+        <img
+          class="img-buscar"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt=" icone de buscar"
+        />
+      </button>
+      <div class="box">
+        <h2 class="city">Tempo</h2>
+
+        <p class="temp">21° C</p>
+        <div class="boxmini">
+          <img
+            class="img-prevision"
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt=""
+          />
+          <p class="prevision">Nublado</p>
+        </div>
+
+        <p class="umid">Umidade: 21%</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
